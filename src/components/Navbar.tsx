@@ -8,7 +8,7 @@ export default function Navbar() {
     <header>
       <nav className={styles.container}>
         <Link href={'/'}>
-          <Image src={pizza} alt='btc-image' />
+          <Image src={pizza} alt='pizzaImage' />
         </Link>
         <div className={styles.containerList}>
           <ul>
