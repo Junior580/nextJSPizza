@@ -1,0 +1,53 @@
+.container {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container .title {
+  position: absolute;
+}
+
+.container .title h1 {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  font-size: 70px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.container .title p {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: #000000;
+}
+
+.container .title a .btnOrder {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #72a4d4;
+  color: #f6f6f6;
+  font-size: 30px;
+}
+
+.container .title a .btnOrder:hover {
+  background-color: #72d4d4;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,26 @@
+header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #121619;
+}
+
+header .container a img {
+  margin: 5px;
+  width: 70px;
+  height: 40px;
+}
+
+.containerList ul {
+  display: flex;
+}
+
+.containerList ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.containerList ul a li {
+  list-style-type: none;
+  margin-left: 20px;
+}

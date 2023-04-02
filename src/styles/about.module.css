@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.tittle {
+  position: absolute;
+  margin: auto;
+  left: 70px;
+  right: 70px;
+}
+
+.container h1 {
+  text-align: center;
+  position: relative;
+  top: 300px;
+}
+
+.container p {
+  margin: auto;
+  position: relative;
+  top: 300px;
+  width: 1200px;
+}

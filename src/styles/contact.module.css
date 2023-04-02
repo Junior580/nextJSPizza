@@ -1,0 +1,60 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+  height: 100%;
+}
+
+.container .form h1 {
+  font-weight: 10;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.container .form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .form .formLabel {
+  margin: 10px;
+  text-align: center;
+}
+
+.container .form .formControl {
+  padding: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  width: 300px;
+}
+
+.container .form .btnMessage {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #72a4d4;
+  color: #f6f6f6;
+  font-size: 30px;
+  width: 200px;
+}
+
+.container .title .btnMessage:hover {
+  background-color: #72d4d4;
+  transition: 1.5ms;
+}
